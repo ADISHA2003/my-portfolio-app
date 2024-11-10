@@ -33,13 +33,13 @@ export default function Portfolio() {
     },
     {
       title: '3D project',
-      description: 'A 3D project built using Three.js',
+      description: 'A 3D project built using Three.js (Best viewed in desktop)',
       image: 'https://tiiny.host/blog/assets/images/1_adcnxab1qc_5kf8juxdeya.png',
       link: 'https://3js-mu.vercel.app/',
     },
     {
       title: '3D solar system',
-      description: 'A 3D Solar System with Meteors and Planetary Movement using Three.js',
+      description: 'A 3D Solar System with Meteors and Planetary Movement using Three.js (Best viewed in desktop)',
       image: 'https://cdn.mos.cms.futurecdn.net/v5n22xGyNNHLzSnSArbrVH.jpg',
       link: 'https://three-js-space-simultor.vercel.app',
     },
