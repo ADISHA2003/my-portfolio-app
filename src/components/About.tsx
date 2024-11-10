@@ -28,7 +28,7 @@ export default function About() {
             />
             <div className="text-gray-600 space-y-4">
               <p>
-                I'm Aditya Sharma, a web developer specializing in creating beautiful, functional websites for small businesses. I focus on building responsive, user-friendly sites that connect businesses with their audience, driving success. My approach blends creativity and precision to reflect each client's vision.
+                I'm Aditya Sharma, a self-taught web developer specializing in creating beautiful, functional websites for small businesses. I focus on building responsive, user-friendly sites that connect businesses with their audience, driving success. My approach blends creativity and precision to reflect each client's vision.
               </p>
             </div>
           </div>
