@@ -1,6 +1,5 @@
 import React from 'react';
 import { Linkedin, Github, Instagram, Twitter } from 'lucide-react';
-import { FaDiscord} from 'react-icons/fa';
 
 export default function Footer() {
   const socialLinks = [
@@ -13,11 +12,6 @@ export default function Footer() {
       icon: <Github className="w-6 h-6" />,
       href: 'https://github.com/adisha2003',
       label: 'GitHub',
-    },
-    {
-      icon: <FaDiscord className="w-6 h-6" />,
-      href: 'https://discord.com/channels/1299689143973974096/1299689144552783894',
-      label: 'Discord',
     },
     {
       icon: <Instagram className="w-6 h-6" />,
