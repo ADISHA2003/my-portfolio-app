@@ -9,7 +9,7 @@ export default function Header() {
     { href: '#about', label: 'About' },
     { href: '#portfolio', label: 'Portfolio' },
     { href: '#services', label: 'Services' },
-    { href: '#plans', label: 'Our Plans' },
+  {/*{ href: '#plans', label: 'Our Plans' },*/}
     { href: '#testimonials', label: 'Experience' },
     { href: '#contact', label: 'Contact' },
   ];
