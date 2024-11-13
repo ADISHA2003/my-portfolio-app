@@ -25,12 +25,12 @@ export default function Portfolio() {
       image: 'https://akm-img-a-in.tosshub.com/businesstoday/images/story/202305/107168822-1671538596693-gettyimages-1443880219-2a5a9193_8cc60243-f700-4596-b223-91ea0c1508c3-sixteen_nine.jpg?size=948:533',
       link: 'https://adisha2003.github.io/Amazon-clone',
     },
-    {
-      title: 'AI-powered search',
-      description: 'An AI powered search engine.',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtIt3zKKlBZ0pMXhNRAEu5ZLTMlAnNBcdKoA&s',
-      link: 'https://ai-powered-search.vercel.app',
-    },
+    // {
+    //   title: 'AI-powered search',
+    //   description: 'An AI powered search engine.',
+    //   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtIt3zKKlBZ0pMXhNRAEu5ZLTMlAnNBcdKoA&s',
+    //   link: 'https://ai-powered-search.vercel.app',
+    // },
     {
       title: '3D project',
       description: 'A 3D project built using Three.js (Best viewed in desktop)',
