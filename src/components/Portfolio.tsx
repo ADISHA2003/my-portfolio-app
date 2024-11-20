@@ -49,6 +49,12 @@ export default function Portfolio() {
       image: 'https://media.licdn.com/dms/image/D5612AQGcQx1GrbrD7w/article-cover_image-shrink_600_2000/0/1689223953046?e=2147483647&v=beta&t=DbEktezMbZgUcgj6BuG6nbrAvRO8IE7dFMkd_fK_ygU',
       link: 'https://adisha2003.pythonanywhere.com',
     },
+    {
+      title: 'Matrix Screensaver',
+      description: 'A screensaver that simulates the Matrix rain effect. (Set it from Github)',
+      image: 'https://wallpapers.com/images/hd/matrix-code-9ldvn0ozgff9576e.jpg',
+      link: 'https://github.com/ADISHA2003/python_matrix_screensaver',
+    }
   ];
 
   return (
