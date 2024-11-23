@@ -51,7 +51,7 @@ export default function Portfolio() {
     },
     {
       title: 'Matrix Screensaver',
-      description: 'A screensaver that simulates the Matrix rain effect. (Set it from Github)',
+      description: 'A screensaver that simulates the Matrix rain effect. (Get it from Github)',
       image: 'https://wallpapers.com/images/hd/matrix-code-9ldvn0ozgff9576e.jpg',
       link: 'https://github.com/ADISHA2003/python_matrix_screensaver',
     }
