@@ -54,7 +54,13 @@ export default function Portfolio() {
       description: 'A screensaver that simulates the Matrix rain effect. (Get it from Github)',
       image: 'https://wallpapers.com/images/hd/matrix-code-9ldvn0ozgff9576e.jpg',
       link: 'https://github.com/ADISHA2003/python_matrix_screensaver',
-    }
+    },
+    {
+      title: 'Gesture Drawing Studio',
+      description: 'A simple web app that lets you create drawings using hand gestures.',
+      image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*mDoM2EeBG39nyulcm4_0TA.jpeg',
+      link: 'https://air-draw-canvas.vercel.app',
+    }    
   ];
 
   return (
