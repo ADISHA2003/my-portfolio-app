@@ -2,14 +2,14 @@ export default function Portfolio() {
   const projects = [
     {
       title: 'SmartCompare',
-      description: 'A grocery comparison PWA that lets you check delivery time, pricing, and availibility of products.',
+      description: 'A grocery comparison PWA that lets you check delivery time, pricing, and availibility of products across blinkit, zepto, and more.',
       image: 'https://smartcompare.vercel.app/icons/app-icon.png',
       link: 'https://smartcompare.vercel.app',
     },
     {
       title: 'Google Gemini Contribution',
       description: 'Fixed a bug in the Gemini Live API Web Console – recognized by the official repo.',
-      image: 'https://avatars.githubusercontent.com/u/161781182?s=48&v=4',
+      image: 'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IO24_WhatsInAName_Hero_1.width-1600.format-webp.webp',
       link: 'https://github.com/google-gemini/live-api-web-console/issues/37',
     },
     {
