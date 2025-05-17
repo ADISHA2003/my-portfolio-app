@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Laptop, Smartphone, Wrench, Bot, DatabaseZap, CloudUpload
+  Laptop, Smartphone, Wrench, Bot, DatabaseZap, UploadCloud
 } from 'lucide-react';
 
 export default function Services() {
@@ -26,7 +26,7 @@ export default function Services() {
       description: 'Turning websites into installable Progressive Web Apps.',
     },
     {
-      icon: <CloudUpload className="w-12 h-12 text-indigo-600" />,
+      icon: <UploadCloud className="w-12 h-12 text-indigo-600" />,
       title: 'Cloud Deployment',
       description: 'Deploying apps on Vercel, managing backends, and DBs on Neon/AWS.',
     },
