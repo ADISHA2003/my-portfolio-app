@@ -1,16 +1,32 @@
 import React from 'react';
-import { Code, Laptop, Monitor, GitBranch, Github, Figma, Server } from 'lucide-react';
+import {
+  Code, Laptop, Monitor, GitBranch, Github, Figma, Server,
+  Database, Cloud, ShieldCheck, TerminalSquare, MousePointerClick
+} from 'lucide-react';
 import { FaPython } from 'react-icons/fa';
 
 export default function About() {
   const skills = [
+    // Web Development
     { icon: <Code className="text-[#e44d26]" />, name: 'HTML & CSS' },
     { icon: <Laptop className="text-[#f0db4f]" />, name: 'JavaScript' },
-    { icon: <FaPython className="text-[#A678DE]" />, name: 'Python' },
-    { icon: <Monitor className="text-[#61DBFB]" />, name: 'React' },
-    { icon: <Server className="text-[#68A063]" />, name: 'Node.js' },
-    { icon: <GitBranch className="text-[#F1502F]" />, name: 'Git' },
-    { icon: <Github className="text-black" />, name: 'Github' },
+    { icon: <Monitor className="text-[#61DBFB]" />, name: 'React.js' },
+    { icon: <Server className="text-[#68A063]" />, name: 'Node.js & Express' },
+    
+    // Automation & Testing
+    { icon: <ShieldCheck className="text-[#6e40c9]" />, name: 'Selenium WebDriver' },
+    { icon: <MousePointerClick className="text-[#aaccff]" />, name: 'Puppeteer' },
+    { icon: <MousePointerClick className="text-[#45ba94]" />, name: 'Playwright' },
+    { icon: <ShieldCheck className="text-[#ffb86c]" />, name: 'Mocha' },
+    { icon: <FaPython className="text-[#A678DE]" />, name: 'Python (Automation)' },
+
+    // Backend & Database
+    { icon: <Database className="text-[#336791]" />, name: 'MySQL & PostgreSQL' },
+    { icon: <TerminalSquare className="text-[#ff6347]" />, name: 'REST APIs & JWT' },
+
+    // Tools & Cloud
+    { icon: <GitBranch className="text-[#F1502F]" />, name: 'Git & GitHub' },
+    { icon: <Cloud className="text-[#FF9900]" />, name: 'AWS Basics' },
     { icon: <Figma className="text-[#F24E1E]" />, name: 'Figma' },
   ];
 
@@ -18,7 +34,7 @@ export default function About() {
     <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">About Me</h2>
-        
+
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
             <img
@@ -28,7 +44,13 @@ export default function About() {
             />
             <div className="text-gray-600 space-y-4">
               <p>
-                I'm Aditya Sharma, a self-taught web developer specializing in creating beautiful, functional websites for small businesses. I focus on building responsive, user-friendly sites that connect businesses with their audience, driving success. My approach blends creativity and precision to reflect each client's vision.
+                I'm Aditya Sharma, a self-taught full-stack web developer and automation specialist. I build efficient, scalable applications using technologies like React, Node.js, and PostgreSQL.
+              </p>
+              <p>
+                My expertise lies in automating browser tasks and data pipelines using tools like Selenium, Puppeteer, and Playwright. I’ve delivered freelance automation tools for clients like TELUS (Canada), helping them automate customer onboarding and availability checks.
+              </p>
+              <p>
+                I’m also the creator of <strong>SmartCompare</strong>, a grocery comparison PWA. I enjoy solving complex technical problems and continuously learning new technologies to push the limits of what’s possible.
               </p>
             </div>
           </div>

@@ -1,22 +1,39 @@
 import React from 'react';
-import { Laptop, Smartphone, Wrench } from 'lucide-react';
+import {
+  Laptop, Smartphone, Wrench, Bot, DatabaseZap, CloudUpload
+} from 'lucide-react';
 
 export default function Services() {
   const services = [
     {
       icon: <Laptop className="w-12 h-12 text-blue-600" />,
-      title: 'Web Development',
-      description: 'Creating custom and responsive websites.',
+      title: 'Full-Stack Web Development',
+      description: 'Building scalable web apps using React, Node.js, and PostgreSQL.',
     },
     {
-      icon: <Smartphone className="w-12 h-12 text-blue-600" />,
-      title: 'Mobile-Friendly Design',
-      description: 'Ensuring your website looks great on all devices.',
+      icon: <Bot className="w-12 h-12 text-green-600" />,
+      title: 'Web Automation & Scraping',
+      description: 'Automating tasks with Puppeteer, Playwright, and Selenium.',
     },
     {
-      icon: <Wrench className="w-12 h-12 text-blue-600" />,
-      title: 'Maintenance & Support',
-      description: 'Providing ongoing support and maintenance for websites.',
+      icon: <DatabaseZap className="w-12 h-12 text-purple-600" />,
+      title: 'Data Processing Pipelines',
+      description: 'Reading/writing Excel, transforming data, and scraping dynamic content.',
+    },
+    {
+      icon: <Smartphone className="w-12 h-12 text-pink-600" />,
+      title: 'PWA Development',
+      description: 'Turning websites into installable Progressive Web Apps.',
+    },
+    {
+      icon: <CloudUpload className="w-12 h-12 text-indigo-600" />,
+      title: 'Cloud Deployment',
+      description: 'Deploying apps on Vercel, managing backends, and DBs on Neon/AWS.',
+    },
+    {
+      icon: <Wrench className="w-12 h-12 text-yellow-600" />,
+      title: 'Project Maintenance',
+      description: 'Ongoing support, updates, and performance optimization.',
     },
   ];
 

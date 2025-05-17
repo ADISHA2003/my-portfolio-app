@@ -1,6 +1,17 @@
-
 export default function Portfolio() {
   const projects = [
+    {
+      title: 'SmartCompare',
+      description: 'A grocery comparison PWA that lets you check delivery time, pricing, and availibility of products.',
+      image: 'https://smartcompare.vercel.app/icons/app-icon.png',
+      link: 'https://smartcompare.vercel.app',
+    },
+    {
+      title: 'Google Gemini Contribution',
+      description: 'Fixed a bug in the Gemini Live API Web Console – recognized by the official repo.',
+      image: 'https://avatars.githubusercontent.com/u/161781182?s=48&v=4',
+      link: 'https://github.com/google-gemini/live-api-web-console/issues/37',
+    },
     {
       title: 'Chatter',
       description: 'An AI-powered chatbot application. Users can interact with the bot for various queries and information.',
@@ -25,12 +36,6 @@ export default function Portfolio() {
       image: 'https://akm-img-a-in.tosshub.com/businesstoday/images/story/202305/107168822-1671538596693-gettyimages-1443880219-2a5a9193_8cc60243-f700-4596-b223-91ea0c1508c3-sixteen_nine.jpg?size=948:533',
       link: 'https://adisha2003.github.io/Amazon-clone',
     },
-    // {
-    //   title: 'AI-powered search',
-    //   description: 'An AI powered search engine.',
-    //   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtIt3zKKlBZ0pMXhNRAEu5ZLTMlAnNBcdKoA&s',
-    //   link: 'https://ai-powered-search.vercel.app',
-    // },
     {
       title: '3D project',
       description: 'A 3D project built using Three.js (Best viewed in desktop)',
@@ -60,7 +65,7 @@ export default function Portfolio() {
       description: 'A simple web app that lets you create drawings using hand gestures.',
       image: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*mDoM2EeBG39nyulcm4_0TA.jpeg',
       link: 'https://air-draw-canvas.vercel.app',
-    }    
+    }
   ];
 
   return (
