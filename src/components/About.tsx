@@ -22,11 +22,11 @@ export default function About() {
 
     // Backend & Database
     { icon: <Database className="text-[#336791]" />, name: 'MySQL & PostgreSQL' },
-    { icon: <TerminalSquare className="text-[#ff6347]" />, name: 'REST APIs & JWT' },
+    { icon: <TerminalSquare className="text-[#ff6347]" />, name: 'APIs' },
 
     // Tools & Cloud
     { icon: <GitBranch className="text-[#F1502F]" />, name: 'Git & GitHub' },
-    { icon: <Cloud className="text-[#FF9900]" />, name: 'AWS Basics' },
+    { icon: <Cloud className="text-[#FF9900]" />, name: 'Cloud' },
     { icon: <Figma className="text-[#F24E1E]" />, name: 'Figma' },
   ];
 
