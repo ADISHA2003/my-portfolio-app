@@ -47,7 +47,7 @@ export default function About() {
                 I'm Aditya Sharma, a self-taught full-stack web developer and automation specialist. I build efficient, scalable applications using technologies like React, Node.js, and PostgreSQL.
               </p>
               <p>
-                My expertise lies in automating browser tasks and data pipelines using tools like Selenium, Puppeteer, and Playwright. I’ve delivered freelance automation tools for clients like TELUS (Canada), helping them automate customer onboarding and availability checks.
+                My expertise lies in automating browser tasks and data pipelines using tools like Selenium, Puppeteer, and Playwright. I’ve delivered freelance automation tools for foreign clients, helping them automate their manual workflow.
               </p>
               <p>
                 I’m also the creator of <strong>SmartCompare</strong>, a grocery comparison PWA. I enjoy solving complex technical problems and continuously learning new technologies to push the limits of what’s possible.
