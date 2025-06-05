@@ -14,14 +14,14 @@ export default function About() {
     { icon: <Server className="text-[#68A063]" />, name: 'Node.js & Express' },
     
     // Automation & Testing
-    { icon: <ShieldCheck className="text-[#6e40c9]" />, name: 'Selenium WebDriver' },
+    { icon: <ShieldCheck className="text-[#6e40c9]" />, name: 'Selenium' },
     { icon: <MousePointerClick className="text-[#aaccff]" />, name: 'Puppeteer' },
     { icon: <MousePointerClick className="text-[#45ba94]" />, name: 'Playwright' },
     { icon: <ShieldCheck className="text-[#ffb86c]" />, name: 'Mocha' },
     { icon: <FaPython className="text-[#A678DE]" />, name: 'Python (Automation)' },
 
     // Backend & Database
-    { icon: <Database className="text-[#336791]" />, name: 'MySQL & PostgreSQL' },
+    { icon: <Database className="text-[#336791]" />, name: 'SQL' },
     { icon: <TerminalSquare className="text-[#ff6347]" />, name: 'APIs' },
 
     // Tools & Cloud
