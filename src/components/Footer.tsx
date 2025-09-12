@@ -1,4 +1,17 @@
-import { Linkedin, Github, Instagram, Twitter } from 'lucide-react';
+import { Linkedin, Github } from 'lucide-react';
+
+const XIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1200 1227"
+    className="w-6 h-6 fill-current"
+  >
+    <path d="M714.163 519.284L1160.89 0H1050.3L667.137 442.67L395.61 0H0L468.137 
+      729.49L0 1226.37H110.59L515.137 761.517L804.39 1226.37H1200L714.137 
+      519.284H714.163ZM564.59 696.655L521.445 630.07L150.3 79.524h190.21L694.72 
+      585.24L737.864 651.825L1109.42 1200H919.21L564.59 696.655Z"/>
+  </svg>
+);
 
 export default function Footer() {
   const socialLinks = [
@@ -13,14 +26,9 @@ export default function Footer() {
       label: 'GitHub',
     },
     {
-      icon: <Instagram className="w-6 h-6" />,
-      href: 'https://www.instagram.com/dev_studio_2003',
-      label: 'Instagram',
-    },
-    {
-      icon: <Twitter className="w-6 h-6" />,
+      icon: <XIcon />,
       href: 'https://x.com/AdityaS47782205',
-      label: 'Twitter',
+      label: 'X',
     },
   ];
 
