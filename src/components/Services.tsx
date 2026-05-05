@@ -47,12 +47,10 @@ export default function Services() {
     <section id="services" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
 
-        {/* 🔥 Section Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           What I Can Help You With
         </h2>
 
-        {/* 💡 Subheading */}
         <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
           I don’t just build websites — I create reliable, automated systems that save time,
           reduce errors, and scale with your business.
@@ -75,7 +73,6 @@ export default function Services() {
               </p>
             </div>
           ))}
-        </div>
         </div>
 
       </div>
