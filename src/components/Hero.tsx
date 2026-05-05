@@ -38,15 +38,6 @@ export default function Hero() {
           >
             🚀 Get Your Project Built
           </a>
-
-          <a
-            href="#projects"
-            aria-label="View Projects"
-            className="inline-block border border-gray-300 text-gray-800 px-8 py-3 rounded-lg
-              hover:bg-gray-100 transition-colors duration-300 font-medium"
-          >
-            View My Work
-          </a>
         </div>
 
       </div>
