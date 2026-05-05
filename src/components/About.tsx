@@ -46,10 +46,6 @@ export default function About() {
             <div className="text-gray-600 space-y-4">
               
               {/* 🔥 Strong Hook */}
-              <p className="text-lg font-semibold text-gray-800">
-                I build reliable, automated, and scalable web systems — combining development, testing, and AI.
-              </p>
-
               <p>
                 I’m Aditya Sharma — a QA Engineer, Automation Specialist, and Full-Stack Developer who builds systems that don’t just work, but are tested, stable, and production-ready from day one.
               </p>
@@ -60,10 +56,6 @@ export default function About() {
 
               <p>
                 On the development side, I create fast, modern web applications using React, Node.js, and APIs — focusing not just on UI, but performance, reliability, and real-world usability.
-              </p>
-
-              <p>
-                I’ve built products like <strong>SmartCompare</strong> (a grocery comparison PWA) and delivered automation solutions for international clients, helping them save hours of repetitive work.
               </p>
 
               <p>
