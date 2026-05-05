@@ -39,7 +39,7 @@ export default function Testimonials() {
               className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 relative"
             >
               {/* Quote Icon */}
-              <Quote className="absolute top-6 right-6 text-gray-200 w-10 h-10" />
+              {/* <Quote className="absolute top-6 right-6 text-gray-200 w-10 h-10" /> */}
 
               {/* Testimonial Text */}
               <p className="text-gray-600 mb-6 leading-relaxed">
