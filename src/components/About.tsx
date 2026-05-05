@@ -17,17 +17,17 @@ export default function About() {
     { icon: <ShieldCheck className="text-[#6e40c9]" />, name: 'Selenium' },
     { icon: <MousePointerClick className="text-[#aaccff]" />, name: 'Puppeteer' },
     { icon: <MousePointerClick className="text-[#45ba94]" />, name: 'Playwright' },
-    { icon: <ShieldCheck className="text-[#ffb86c]" />, name: 'Mocha' },
+    { icon: <ShieldCheck className="text-[#ffb86c]" />, name: 'Mocha / TestNG' },
     { icon: <FaPython className="text-[#A678DE]" />, name: 'Python (Automation)' },
 
     // Backend & Database
-    { icon: <Database className="text-[#336791]" />, name: 'SQL' },
-    { icon: <TerminalSquare className="text-[#ff6347]" />, name: 'APIs' },
+    { icon: <Database className="text-[#336791]" />, name: 'SQL / PostgreSQL' },
+    { icon: <TerminalSquare className="text-[#ff6347]" />, name: 'APIs & Backend Logic' },
 
     // Tools & Cloud
     { icon: <GitBranch className="text-[#F1502F]" />, name: 'Git & GitHub' },
-    { icon: <Cloud className="text-[#FF9900]" />, name: 'Cloud' },
-    { icon: <Figma className="text-[#F24E1E]" />, name: 'Figma' },
+    { icon: <Cloud className="text-[#FF9900]" />, name: 'Cloud / Vercel' },
+    { icon: <Figma className="text-[#F24E1E]" />, name: 'Figma (UI Collaboration)' },
   ];
 
   return (
@@ -42,16 +42,34 @@ export default function About() {
               alt="Profile"
               className="w-48 h-48 rounded-full shadow-lg"
             />
+            
             <div className="text-gray-600 space-y-4">
-              <p>
-                I'm Aditya Sharma, a self-taught full-stack web developer and automation specialist. I build efficient, scalable applications using technologies like React, Node.js, and PostgreSQL.
+              
+              {/* 🔥 Strong Hook */}
+              <p className="text-lg font-semibold text-gray-800">
+                I build reliable, automated, and scalable web systems — combining development, testing, and AI.
               </p>
+
               <p>
-                My expertise lies in automating browser tasks and data pipelines using tools like Selenium, Puppeteer, and Playwright. I’ve delivered freelance automation tools for foreign clients, helping them automate their manual workflow.
+                I’m Aditya Sharma — a QA Engineer, Automation Specialist, and Full-Stack Developer who builds systems that don’t just work, but are tested, stable, and production-ready from day one.
               </p>
+
               <p>
-                I’m also the creator of <strong>SmartCompare</strong>, a grocery comparison PWA. I enjoy solving complex technical problems and continuously learning new technologies to push the limits of what’s possible.
+                My background in software testing gives me a unique edge — I think like a tester while building like a developer. I’ve worked extensively with Playwright, Selenium, and Python to automate complex workflows, reduce manual effort, and improve product quality.
               </p>
+
+              <p>
+                On the development side, I create fast, modern web applications using React, Node.js, and APIs — focusing not just on UI, but performance, reliability, and real-world usability.
+              </p>
+
+              <p>
+                I’ve built products like <strong>SmartCompare</strong> (a grocery comparison PWA) and delivered automation solutions for international clients, helping them save hours of repetitive work.
+              </p>
+
+              <p>
+                Currently, I’m exploring AI-powered automation, workflow tools like n8n, and building intelligent systems that merge development, testing, and AI into one seamless workflow.
+              </p>
+
             </div>
           </div>
 
@@ -69,6 +87,7 @@ export default function About() {
               ))}
             </div>
           </div>
+
         </div>
       </div>
     </section>
